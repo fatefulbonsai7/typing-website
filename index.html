@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedType - Learn to Type Faster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SpeedType</h1>
+        <p>Improve your typing skills with practice</p>
+    </header>
+    
+    <main>
+        <section id="typing-area">
+            <div class="text-display">Type the text below:</div>
+            <div class="text-prompt" id="textPrompt">The quick brown fox jumps over the lazy dog.</div>
+            <textarea id="userInput" placeholder="Start typing here..." autofocus></textarea>
+            <div class="stats">
+                <div class="stat-box">
+                    <span id="wpm">0</span>
+                    <label>WPM</label>
+                </div>
+                <div class="stat-box">
+                    <span id="accuracy">100%</span>
+                    <label>Accuracy</label>
+                </div>
+                <div class="stat-box">
+                    <span id="time">0:00</span>
+                    <label>Time</label>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="resetBtn">Reset</button>
+                <button id="newTextBtn">New Text</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 SpeedType - A simple typing practice website</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
